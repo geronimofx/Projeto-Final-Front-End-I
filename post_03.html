@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog do IMD</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+</head>
+
+<body>
+    <!-- barra de navegação/cabeçalho importando classes do bootstrap -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Blog do IMD</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Clientes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- breadcrumb importando classes do bootstrap -->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page"><a href="index.html">Home</a> / A viagem ao espaço do Jeff Bezo</li>
+        </ol>
+    </nav>
+
+    <!-- estrutura do conteúdo do blog -->
+    <div class="container">
+
+        <!-- Criação do conteúdo principal do blog -->
+        <div class="row">
+            <div class="col-md-8">
+                <h1 class="mb-4">
+                    A viagem ao espaço do Jeff Bezos
+                </h1>
+                <p class="lead">Postado por <a href="#">Geronimo</a></p>
+                <p class="text-muted">Postado em 02 de dezembro de 2021</p>
+                <hr>
+                <a href=""></a><img class="img-fluid rounded mb-4" src="./img/img-destaque-post-03.jpg" alt="pessoa programando utilziando CSS 3">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquid sint tempore nisi temporibus est tempora fuga odio nostrum. Placeat eaque dolores ut porro sint dolorum in neque asperiores beatae mollitia.</p>
+                
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque magni, totam vitae laboriosam cupiditate quaerat. Reiciendis, voluptatem nam consequuntur molestiae numquam vel, possimus hic quae distinctio nulla maxime, mollitia omnis!</p>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis est dignissimos iste tempora cupiditate libero. Illum optio officiis, omnis at culpa neque deleniti vero qui, necessitatibus quis, magnam accusantium molestias.</p>
+
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Primeiro</th>
+                            <th scope="col">Último</th>
+                            <th scope="col">Nickname</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td><span class="badge badge-success">Sim</span></td>
+                            <td>Otto</td>
+                            <td>@mdo</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td><span class="badge badge-warning">Talvez</span></td>
+                            <td>Thornton</td>
+                            <td>@fat</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td><span class="badge badge-danger">Nao</span></td>
+                            <td>the Bird</td>
+                            <td>@twitter</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                    <!-- Adicionar comentários à publicação -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Comentários
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <textarea class="form-control" name="" id="" cols="30" rows="3"></textarea>
+                        </div>
+                        <button class="btn btn-primary mt-2">Comentar</button>
+                    </div>
+                </div>
+
+                    <!-- linha do tempo de comentários anteriores -->
+                <div class="media mb-4">
+                    <img class="mr-3 rounded-circle" src="./img/avatar-einstein.jpg" alt="avatar do Albert Einstein">
+                    <div class="media-body">
+                        <h5 class="mt-0">Albert Einstein</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+                <div class="media mb-4">
+                    <img class="mr-3 rounded-circle" src="./img/avatar-margaret.jpg" alt="avatar da Margaret Hamilton">
+                    <div class="media-body">
+                        <h5 class="mt-0">Margaret Hamilton</h5>
+                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                    </div>
+                </div>
+
+            </div>
+            
+            <!-- Criação do side bar -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Busca
+                    </div>
+                    <div class="card-body">
+                        <div class="input-group">
+                            <input type="text" class="form-ccontrol" placeholder="Digite aqui..." />
+                            <button class="btn btn-primary ml-2">Buscar</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Categoria
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">Web Design</a></li>
+                                    <li><a href="#">Javascript</a></li>
+                                    <li><a href="#">CSS 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-6">
+                                <ul class="list-unstyled">
+                                    <li><a href="#">HTML 5</a></li>
+                                    <li><a href="#">Bootstrap</a></li>
+                                    <li><a href="#">React JS</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <div class="card-header">
+                        Autor
+                    </div>
+                    <div class="card-body">
+                        <div class="text-center">
+                            <img width="125px" class="rounded-circle" src="./img/perfil.jpg" alt="imagem de perfil do criador do blog"/>
+                        </div>
+                        <p class="py-3">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
+                            accusamus repellat cum, tempore explicabo, ad deleniti
+                            consectetur blanditiis, id pariatur nostrum impedit nam.
+                            Consectetur modi, nisi repellat itaque distinctio ea!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- rodapé importanto classes do bootstrap -->
+    <footer class="bg-dark py-2">
+        <a href="https://www.linkedin.com/in/geronimofx/">
+            <p class="text-white text-center">Desenvolvido por Geronimo</p>
+        </a>
+    </footer>
+
+    <!-- script do bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
