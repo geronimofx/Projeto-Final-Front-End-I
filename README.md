@@ -6,4 +6,4 @@ O projeto se baseia nas últimas aulas da disciplina de Desenvolvimento Front-En
 
 Resusltado final:
 
-![gif mostrando o conteúdo do site](https://media.giphy.com/media/MvOvcSyhPnnF4Bm5CT/giphy.gif)
+![gif mostrando o conteúdo do site](https://media.giphy.com/media/Oi391TYS5NyJpgWwNF/giphy.gif)
